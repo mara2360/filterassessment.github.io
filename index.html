@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Filter Assessment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Product Filter Demo</h1>
+	<div class="filters">
+		<div>
+		  <label for="yearSelect">Year:</label>
+		  <select id="yearSelect" aria-label="Select Year">
+			<option value="">Select Year</option>
+		  </select>
+		</div>
+	  
+		<div>
+		  <label for="makeSelect">Make:</label>
+		  <select id="makeSelect" aria-label="Select Make" disabled>
+			<option value="">Select Make</option>
+		  </select>
+		</div>
+	  
+		<div>
+		  <label for="modelSelect">Model:</label>
+		  <select id="modelSelect" aria-label="Select Model" disabled>
+			<option value="">Select Model</option>
+		  </select>
+		</div>
+	  
+		<div>
+		  <label for="productTypeSelect">Product Type:</label>
+		  <select id="productTypeSelect" aria-label="Select Product Type" disabled>
+			<option value="">Select Product Type</option>
+		  </select>
+		</div>
+	  </div>
+	
+	<div id="productUrl" class="product-url"></div>
+	
+	<script src="script.js"></script>
+	
+</body>
+</html>

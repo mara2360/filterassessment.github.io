@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2rem;
+  background: #f3f4f6;
+  color: #1f2937;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/*Filter container*/
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/*Filter labels*/
+.filters label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #374151;
+}
+
+/*Choose option*/
+.filters select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  color: #111827;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filters select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+  outline: none;
+}
+
+.filters select:disabled {
+  background-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/*URL*/
+.product-url {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #111827;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.product-url:hover {
+  color: #111827;
+}
+
+.product-url-button {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #111827;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-url-button:hover {
+  background-color: #111827;
+}
+
+.product-url-button:focus {
+  outline: 3px solid #111827;
+  outline-offset: 2px;
+}

@@ -5,7 +5,7 @@ To run this coding assessment, either:
 1) Copy and paste the link to view it
    - https://mara2360.github.io/filterassessment.github.io/
 
-## OR
+OR
 
 2) Download the GitHub zip file:
    - Download and open the zip file in VSCode

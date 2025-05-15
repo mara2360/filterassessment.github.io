@@ -2,7 +2,7 @@
 
 To run this coding assessment:
 
-1) Use the link to view it
+1) Copy and paste the link to view it
    - https://mara2360.github.io/filterassessment.github.io/
 
 3) Download the GitHub zip file:
